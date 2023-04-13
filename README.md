@@ -13,8 +13,7 @@ The challenge was:
 
 
 ## File
-**runoff.c**
-Runoff.c contains the entire code, written in the C programming language. For simplicity the program uses the cs50 library, which cuts down the complexity of string manipulation and other areas at the current progress of the course. This complexities are added back at later point in course and are covered extensively.
+**runoff.c** contains the entire code, written in the C programming language. For simplicity the program uses the cs50 library, which cuts down the complexity of string manipulation and other areas at the current progress of the course. This complexities are added back at later point in course and are covered extensively.
 
 ## How to run
 To run this program, a C compiler must be installed and the cs50 library must be included. The best way is to run it is to use a Linux enviroment like WSL for windows (if not using Linux) and to run (after compiling):
