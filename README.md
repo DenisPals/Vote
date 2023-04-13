@@ -1,6 +1,6 @@
-# Runoff - A C program that runs a runoff election
+# Runoff - A program that executes a runoff election
 ## Complexity
-This Vote program, contrary to a plurality vote will run a runoff election iif no candidate has more than 50% of the votes and if any candidate has the majority of the votes (more than 50%), he will be declared the winner. The process repeats itself until a candidate can be declared winner.
+This Vote program, contrary to a plurality vote will run a runoff election if no candidate has more than 50% of the votes and if any candidate has the majority of the votes (more than 50%), he will be declared the winner. The process repeats itself until a candidate can be declared winner.
 This is a course related project and part of the problemset in Harvards CS50x week 3.
 
 The challenge was:
@@ -17,7 +17,7 @@ The challenge was:
 Runoff.c contains the entire code, written in the C programming language. For simplicity the program uses the cs50 library, which cuts down the complexity of string manipulation and other areas at the current progress of the course. This complexities are added back at later point in course and are covered extensively.
 
 ## How to run
-To run this program, a C compiler must be installed and the cs50 library must be included. The best way is to run it is to use a Linux enviroment like WSL for windows (if not using Linux) and to run 
+To run this program, a C compiler must be installed and the cs50 library must be included. The best way is to run it is to use a Linux enviroment like WSL for windows (if not using Linux) and to run (after compiling):
 > ./runoff Alice Bob Charlie
 
 for example. The user will then be prompted with the number of voters 
