@@ -1,4 +1,4 @@
-# Vote - A C program that runs a runoff election
+# Runoff - A C program that runs a runoff election
 ## Complexity
 This Vote program, contrary to a plurality vote will run a runoff election iif no candidate has more than 50% of the votes and if any candidate has the majority of the votes (more than 50%), he will be declared the winner. The process repeats itself until a candidate can be declared winner.
 This is a course related project and part of the problemset in Harvards CS50x week 3.
